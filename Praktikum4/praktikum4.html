@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Praktikum 4 | Meta & Form</title>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="3600">
+    <meta name="keywords" content="meta dan form pada HTML">
+    <meta name="description" content="Halaman ini akan membahas tentang dasar-dasar penggunaan meta dan form pada HTML">
+    <meta name="author" content="I Kadek Ari Surya - 1808561026">
+</head>
+<body style="margin-left:30px;">
+    <h3>Biodata Diri</h3>
+    <form action="">
+        <!-- input nama -->
+        <label for="fname">Nama :</label><br>
+        <input type="text" id="fname" name="fname" placeholder="masukan nama" required><br><br>
+        
+        <!-- input tempat lahir -->
+        <label for="tempat">Tempat Lahir : </label><br>
+        <input type="text" id="tempat" name="tempat" placeholder="masukan tempat lahir" required><br><br>
+
+        <!-- input tanggal lahir -->
+        <label for="tgl">Tanggal Lahir : </label><br>
+        <input type="date" id="tgl" name="tgl" required><br>
+       
+        <!-- input jenis kelamin -->
+        <p>Jenis Kelamin :</p>
+        <input type="radio" name="jenis_kelamin" value="pria" required/>Pria <br>
+        <input type="radio" name="jenis_kelamin" value="perempuan" required/>Peremuan <br><br>
+
+        <!-- input pendidikan terakhir-->
+        <label for="daftar_pilihan">Pendidikan Terakhir:</label><br>
+        <select name="daftar_pilihan" id="daftar_pilihan" required>
+            <option value="sd">SD</option>
+            <option value="smp">SMP</option>
+            <option value="sma/smk">SMA/SMK</option>
+            <option value="tidak_sekolah">Tidak Sekolah</option>
+        </select><br><br>
+
+        <!-- input pendidikan saat ini -->
+        <label for="daftar_pilihan">Pendidikan Saat Ini:</label><br>
+        <select name="daftar_pilihan" id="daftar_pilihan" required>
+            <option value="d1">Diploma 1</option>
+            <option value="d2">Diploma 2</option>
+            <option value="d3">Diploma 3</option>
+            <option value="d4">Diploma 4</option>
+            <option value="s1">Pendidikan Sarjana </option>
+        </select><br><br>
+
+        <!-- input no. telp/hp  -->
+        <label for="tlp">No. Telp/HP :</label><br>
+        <input type="number" id="tlp" name="tlp" placeholder="masukan nomor" required><br><br>
+       
+        <!-- input alamat -->
+        <label for="alamat">Alamat :</label><br>
+        <textarea name="alamat" id="" cols="30" rows="10" placeholder="masukan alamat" required></textarea><br>
+        
+        <!-- submmit -->
+        <input type="submit" name="submit" value="submit">
+    </form>   
+</body>
+</html>
