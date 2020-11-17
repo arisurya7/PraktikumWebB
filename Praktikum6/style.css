@@ -1,0 +1,21 @@
+
+body{
+    background-color: whitesmoke;
+}
+.main{
+    margin-top: 100px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 3px 2px 8px rgba(0,0,0,0.2);
+}
+.textarea{
+    margin-bottom: 20px;
+    border: 1px solid blue;
+    height: 50px;
+}
+
+#container .opn,
+#container .opr{
+    width: 50px;
+    margin:2px;
+}
